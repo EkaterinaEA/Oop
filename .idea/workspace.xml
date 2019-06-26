@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="289c1b67-6242-4329-b783-b8f676340a05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/printArea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/circle/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/circle/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/square/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/square/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oop/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -96,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#159#160#0" expanded="true" />
@@ -127,6 +125,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oop/printArea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -151,11 +161,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Oop/Triangle/Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Oop/Circle/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Oop/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oop/Shape.java" />
         <option value="$PROJECT_DIR$/src/main/java/oop/AbstractShape.java" />
         <option value="$PROJECT_DIR$/src/main/java/oop/circle/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/oop/square/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oop/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oop/printArea.java" />
       </list>
     </option>
   </component>
@@ -272,7 +283,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561577617545</updated>
-      <workItem from="1561577624312" duration="3877000" />
+      <workItem from="1561577624312" duration="4969000" />
     </task>
     <task id="LOCAL-00001" summary="add project Oop">
       <created>1561579417520</created>
@@ -302,14 +313,22 @@
       <option name="project" value="LOCAL" />
       <updated>1561580559277</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add getters and setters">
+      <created>1561581556727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561581556727</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3877000" />
+    <option name="totallyTimeSpent" value="4969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -348,7 +367,8 @@
     <MESSAGE value="add project Oop" />
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="add getters and setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="add getters and setters" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -399,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#159#160#0" expanded="true" />
@@ -438,8 +458,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oop/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oop/printArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
