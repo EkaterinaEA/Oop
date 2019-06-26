@@ -10,4 +10,13 @@ public class Square extends AbstractShape {
     public double getArea() {
         return Math.pow(side, 2);
     }
+
+    public double getSide(){
+        return side;
+    }
+
+    public void setSide(){
+        this.side = side;
+    }
+
 }
