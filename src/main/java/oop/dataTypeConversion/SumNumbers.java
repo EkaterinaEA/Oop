@@ -1,6 +1,6 @@
 package oop.dataTypeConversion;
 
-public class sumNumbers {
+public class SumNumbers {
 
     private int num = 12345;
     private int sum = 0;
