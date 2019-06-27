@@ -6,6 +6,12 @@ public class Square extends AbstractShape {
 
     private double side;
 
+    public Square() { }
+
+    public Square(double side) {
+        this.side = side;
+    }
+
     public double getArea() {
         return Math.pow(side, 2);
     }

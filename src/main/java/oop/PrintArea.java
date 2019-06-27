@@ -6,7 +6,7 @@ import oop.triangle.Triangle;
 
 import java.util.logging.Logger;
 
-public class printArea {
+public class PrintArea {
 
     public static Logger log = Logger.getLogger(Shape.class.getName());
 
