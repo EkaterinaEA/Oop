@@ -1,7 +1,6 @@
 package oop.square;
 
 import oop.AbstractShape;
-import oop.Shape;
 
 public class Square extends AbstractShape {
 
@@ -15,7 +14,7 @@ public class Square extends AbstractShape {
         return side;
     }
 
-    public void setSide(){
+    public void setSide(double side){
         this.side = side;
     }
 

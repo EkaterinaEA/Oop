@@ -1,7 +1,6 @@
 package oop.circle;
 
 import oop.AbstractShape;
-import oop.Shape;
 
 public class Circle extends AbstractShape {
 

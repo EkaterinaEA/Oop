@@ -1,7 +1,6 @@
 package oop.triangle;
 
 import oop.AbstractShape;
-import oop.Shape;
 
 public class Triangle extends AbstractShape {
 
@@ -41,16 +40,14 @@ public class Triangle extends AbstractShape {
         return p;
     }
 
-    public void setP(double p){
-        this.p = p;
-    }
-
     public double getH(){
         return h;
     }
 
-    public void setH(double h){
-        this.h = h;
+    public static void main(String[] args) {
+        Triangle triangle = new Triangle();
+        System.out.println(triangle.getH());
+        System.out.println(triangle.getP());
+        System.out.println(triangle.getArea());
     }
-
 }
