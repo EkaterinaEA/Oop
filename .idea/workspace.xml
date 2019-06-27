@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="289c1b67-6242-4329-b783-b8f676340a05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/oop/triangle/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/oop/triangle/TriangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/oop/printAreaTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,20 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/oop/printAreaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            <state relative-caret-position="431">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -100,15 +91,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/oop/triangle/TriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            <state relative-caret-position="425">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,8 +152,9 @@
         <option value="$PROJECT_DIR$/src/test/java/oop/triangle/Triangle.java" />
         <option value="$PROJECT_DIR$/src/test/java/oop/triangle/TriangleTest" />
         <option value="$PROJECT_DIR$/src/test/java/oop/square/SquareTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java" />
         <option value="$PROJECT_DIR$/src/test/java/oop/triangle/TriangleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/oop/printAreaTest.java" />
       </list>
     </option>
   </component>
@@ -180,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,6 +282,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,6 +393,7 @@
       <workItem from="1561640719880" duration="961000" />
       <workItem from="1561642707258" duration="1752000" />
       <workItem from="1561644492357" duration="1778000" />
+      <workItem from="1561646301354" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="add project Oop">
       <created>1561579417520</created>
@@ -453,13 +444,17 @@
       <option name="project" value="LOCAL" />
       <updated>1561646168551</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change tests">
+      <created>1561646401331</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561646401331</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CircleTest - 2019.06.27 at 10h 01m 57s.xml">
-      <configuration name="CircleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SquareTest - 2019.06.27 at 10h 06m 46s.xml">
       <configuration name="SquareTest" configurationId="JUnit" />
     </history-entry>
@@ -487,15 +482,17 @@
     <history-entry file="TriangleTest - 2019.06.27 at 10h 32m 32s.xml">
       <configuration name="TriangleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TriangleTest - 2019.06.27 at 10h 38m 41s.xml">
+      <configuration name="TriangleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10926000" />
+    <option name="totallyTimeSpent" value="11616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2673064" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27141878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -536,7 +533,8 @@
     <MESSAGE value="add getters and setters" />
     <MESSAGE value="add printArea" />
     <MESSAGE value="add tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tests" />
+    <MESSAGE value="change tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="change tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -553,6 +551,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oop/triangle/TriangleTest" />
     <entry file="file://$PROJECT_DIR$/src/main/java/oop/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -585,13 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oop/printAreaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/oop/circle/CircleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -616,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oop/triangle/TriangleTest">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/oop/square/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -633,22 +618,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/oop/triangle/TriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oop/triangle/TriangleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/oop/printAreaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
