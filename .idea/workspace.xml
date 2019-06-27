@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="289c1b67-6242-4329-b783-b8f676340a05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/CollectionFigures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/circle/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/circle/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/printArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/PrintArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/square/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/square/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/triangle/Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oop/Shape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oop/AbstractShape.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,14 +105,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oop/CollectionFigures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="539">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/oop/dataTypeConversion/sumNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -169,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/main/java/oop/square/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/oop/AbstractShape.java" />
         <option value="$PROJECT_DIR$/src/main/java/oop/CollectionFigures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/oop/dataTypeConversion/sumNumbers.java" />
       </list>
     </option>
   </component>
@@ -184,8 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,6 +221,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="circle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="dataTypeConversion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Oop" type="b2602c69:ProjectViewProjectNode" />
@@ -298,13 +301,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../krasnova" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baseOOP" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -323,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CollectionFigures">
+  <component name="RunManager" selected="Application.sumNumbers">
     <configuration name="CollectionFigures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.CollectionFigures" />
       <module name="Oop" />
@@ -350,17 +355,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="sumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.dataTypeConversion.sumNumbers" />
       <module name="Oop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.circle.*" />
+          <option name="PATTERN" value="oop.dataTypeConversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oop.circle" />
-      <option name="MAIN_CLASS_NAME" value="oop.circle.CircleTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -397,11 +400,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sumNumbers" />
         <item itemvalue="Application.CollectionFigures" />
         <item itemvalue="JUnit.TriangleTest" />
         <item itemvalue="Application.Triangle" />
         <item itemvalue="JUnit.SquareTest" />
-        <item itemvalue="JUnit.CircleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -425,7 +428,8 @@
       <workItem from="1561648532088" duration="1306000" />
       <workItem from="1561653227005" duration="1778000" />
       <workItem from="1561655042142" duration="1809000" />
-      <workItem from="1561657142867" duration="292000" />
+      <workItem from="1561657142867" duration="1416000" />
+      <workItem from="1561658961359" duration="1580000" />
     </task>
     <task id="LOCAL-00001" summary="add project Oop">
       <created>1561579417520</created>
@@ -490,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561647004132</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add CollectionFigures">
+      <created>1561657632889</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561657632889</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -526,13 +537,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17716000" />
+    <option name="totallyTimeSpent" value="20420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26387936" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26799178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -541,7 +552,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.10177515" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16923077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -575,7 +586,8 @@
     <MESSAGE value="add tests" />
     <MESSAGE value="change tests" />
     <MESSAGE value="delete printAreaTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete printAreaTest" />
+    <MESSAGE value="add CollectionFigures" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CollectionFigures" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -675,11 +687,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oop/CollectionFigures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="539">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oop/dataTypeConversion/sumNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
         </state>
       </provider>
     </entry>
