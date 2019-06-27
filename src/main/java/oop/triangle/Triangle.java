@@ -44,10 +44,4 @@ public class Triangle extends AbstractShape {
         return h;
     }
 
-    public static void main(String[] args) {
-        Triangle triangle = new Triangle();
-        System.out.println(triangle.getH());
-        System.out.println(triangle.getP());
-        System.out.println(triangle.getArea());
-    }
 }
