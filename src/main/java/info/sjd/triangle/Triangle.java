@@ -1,6 +1,6 @@
-package oop.triangle;
+package info.sjd.triangle;
 
-import oop.AbstractShape;
+import info.sjd.AbstractShape;
 
 public class Triangle extends AbstractShape {
 

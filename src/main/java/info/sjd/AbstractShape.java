@@ -1,4 +1,4 @@
-package oop;
+package info.sjd;
 
 public abstract class AbstractShape implements Shape {
 }

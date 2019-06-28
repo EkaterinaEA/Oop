@@ -1,4 +1,4 @@
-package oop.dataTypeConversion;
+package info.sjd.dataTypeConversion;
 
 public class SumNumbers {
 

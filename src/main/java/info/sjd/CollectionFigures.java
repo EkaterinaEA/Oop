@@ -1,15 +1,15 @@
-package oop;
+package info.sjd;
 
-import oop.circle.Circle;
-import oop.square.Square;
-import oop.triangle.Triangle;
+import info.sjd.circle.Circle;
+import info.sjd.square.Square;
+import info.sjd.triangle.Triangle;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static oop.PrintArea.log;
+import static info.sjd.PrintArea.log;
 
 public class CollectionFigures {
 

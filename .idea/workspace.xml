@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="289c1b67-6242-4329-b783-b8f676340a05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/oop/dataTypeConversion/SumNumbersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/dataTypeConversion/sumNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/dataTypeConversion/SumNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/oop/circle/Circle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oop/square/Square.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/oop/circle/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="255">
+              <caret line="19" column="5" selection-start-line="16" selection-start-column="2" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,20 +102,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oop/dataTypeConversion/SumNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/oop/dataTypeConversion/SumNumbersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/oop/dataTypeConversion/SumNumbersTest.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -446,7 +444,8 @@
       <workItem from="1561655042142" duration="1809000" />
       <workItem from="1561657142867" duration="1416000" />
       <workItem from="1561658961359" duration="1772000" />
-      <workItem from="1561660901708" duration="559000" />
+      <workItem from="1561660901708" duration="1367000" />
+      <workItem from="1561738397719" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="add project Oop">
       <created>1561579417520</created>
@@ -525,19 +524,17 @@
       <option name="project" value="LOCAL" />
       <updated>1561660725212</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add SumNumbersTest">
+      <created>1561661649144</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561661649144</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SquareTest - 2019.06.27 at 10h 06m 46s.xml">
-      <configuration name="SquareTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TriangleTest - 2019.06.27 at 10h 14m 43s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TriangleTest - 2019.06.27 at 10h 20m 44s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TriangleTest - 2019.06.27 at 10h 27m 43s.xml">
       <configuration name="TriangleTest" configurationId="JUnit" />
     </history-entry>
@@ -559,14 +556,23 @@
     <history-entry file="TriangleTest - 2019.06.27 at 10h 38m 41s.xml">
       <configuration name="TriangleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SumNumbersTest - 2019.06.27 at 14h 51m 13s.xml">
+      <configuration name="SumNumbersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumNumbersTest - 2019.06.27 at 14h 52m 07s.xml">
+      <configuration name="SumNumbersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SumNumbersTest - 2019.06.27 at 14h 53m 40s.xml">
+      <configuration name="SumNumbersTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21171000" />
+    <option name="totallyTimeSpent" value="23189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
+    <frame x="-7" y="-7" width="1519" height="977" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27210417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2762166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -575,7 +581,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0591716" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.09349112" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,20 +617,14 @@
     <MESSAGE value="delete printAreaTest" />
     <MESSAGE value="add CollectionFigures" />
     <MESSAGE value="add sumNumbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sumNumbers" />
+    <MESSAGE value="add SumNumbersTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SumNumbersTest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -662,6 +662,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oop/circle/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="5" selection-start-line="16" selection-start-column="2" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,28 +721,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oop/dataTypeConversion/SumNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oop/circle/CircleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/oop/dataTypeConversion/SumNumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="612">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>

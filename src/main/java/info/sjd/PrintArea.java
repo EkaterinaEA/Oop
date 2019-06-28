@@ -1,8 +1,8 @@
-package oop;
+package info.sjd;
 
-import oop.circle.Circle;
-import oop.square.Square;
-import oop.triangle.Triangle;
+import info.sjd.circle.Circle;
+import info.sjd.square.Square;
+import info.sjd.triangle.Triangle;
 
 import java.util.logging.Logger;
 

@@ -1,6 +1,6 @@
-package oop.square;
+package info.sjd.square;
 
-import oop.AbstractShape;
+import info.sjd.AbstractShape;
 
 public class Square extends AbstractShape {
 

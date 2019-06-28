@@ -1,6 +1,6 @@
-package oop.circle;
+package info.sjd.circle;
 
-import oop.AbstractShape;
+import info.sjd.AbstractShape;
 
 public class Circle extends AbstractShape {
 

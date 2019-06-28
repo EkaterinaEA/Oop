@@ -1,32 +1,31 @@
-package oop.circle;
+package info.sjd.square;
 
 import org.junit.Assert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class CircleTest {
+public class SquareTest {
 
-    private Circle circle;
+    private Square square;
 
     @BeforeEach
     public void setup(){
-        this.circle = new Circle();
-        circle.setRadius(5.0);
+        this.square = new Square();
+        square.setSide(5.0);
     }
 
     @Test
     public void getAreaTest_NOT_NULL(){
-        Assert.assertNotNull(circle.getArea());
+        Assert.assertNotNull(square.getArea());
     }
 
     @Test
     public void getAreaTest(){
 
-        double expected = circle.getArea();
-        double actual = Math.PI * Math.pow(5.0, 2);
+        double expected = square.getArea();
+        double actual = Math.pow(5.0, 2);
 
         Assert.assertEquals(expected, actual, 0);
 
     }
-
 }
