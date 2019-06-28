@@ -5,8 +5,6 @@ import info.sjd.AbstractShape;
 public class Triangle extends AbstractShape {
 
     private double side1, side2, side3;  // sides of the triangle, side1 - side of the triangle to which height h is perpendicular
-    private double p = (side1 + side2 + side3)/2;  // semi-perimeter
-    private double h =  (2/side1)*Math.sqrt(p*(p-side1)*(p-side2)*(p-side3));  // triangle height
 
     public Triangle() { }
 
@@ -17,6 +15,8 @@ public class Triangle extends AbstractShape {
     }
 
     public double getArea() {
+        double p = (side1 + side2 + side3)/2;  // semi-perimeter
+        double h =  (2/side1)*Math.sqrt(p*(p-side1)*(p-side2)*(p-side3));  // triangle height
         return (h*side1)/2;
     }
 
@@ -44,12 +44,5 @@ public class Triangle extends AbstractShape {
         this.side3 = side3;
     }
 
-    public double getP(){
-        return p;
-    }
-
-    public double getH(){
-        return h;
-    }
 
 }

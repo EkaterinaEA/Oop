@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 
 public class PrintArea {
 
-    public static Logger log = Logger.getLogger(Shape.class.getName());
+    public static Logger log = Logger.getLogger(PrintArea.class.getName());
 
     Circle circle = new Circle();
     Square square = new Square();
